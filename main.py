@@ -1,4 +1,4 @@
-from tkinter import*
+from tkinter import *
 from tkinter import ttk
 from PIL import Image,ImageTk
 
@@ -8,10 +8,6 @@ class Face_recognitionattendance_System:
         self.root=root
         self.root.geometry("1540x790+0+0")
         self.root.title("Face Recognition Attendance System")
-
-
-
-
 
         #bg image 
         img3=Image.open(r"C:\Users\Victus\Desktop\front page\background.jpg")
